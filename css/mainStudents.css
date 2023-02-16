@@ -1,0 +1,32 @@
+.main{
+  height: calc(100vh - 136px); 
+  overflow-x: auto;
+  margin-left: 256px;
+  padding-left: 200px;
+}
+
+.title{
+  font-size: 30px;
+  font-weight: 700;
+  margin:25px 0 50px 0;
+}
+
+.students_card-img{
+  width: 200px;
+  height: 270px;
+  background-color: #86C6F4;
+}
+
+.students{
+  display: flex;
+  /* justify-content:space-between; */
+  gap: 50px;
+}
+
+.span{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  padding: 8px 0 0 30px
+}

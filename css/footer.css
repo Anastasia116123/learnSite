@@ -1,0 +1,23 @@
+.footer{
+  background-color:#213B7E; 
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  width: 1400px;
+  height: 60px;
+  line-height: 23px;
+  text-align: center;
+  margin: auto;
+  bottom: auto;
+}
+
+@media screen and (max-width: 1400px){
+  .footer{
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .footer{
+  font-size: 14px;
+  }
+}
